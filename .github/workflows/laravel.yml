@@ -5,6 +5,7 @@ on:
     branches: [ "casoestudio3-C4E644-branch" ]
   pull_request:
     branches: [ "casoestudio3-C4E644-branch" ]
+  workflow_dispatch:
 
 jobs:
   laravel-tests:
