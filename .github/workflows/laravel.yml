@@ -1,6 +1,6 @@
 name: Laravel
 
-on:
+  on:
   push:
     branches: [ "casoestudio3-C4E644-branch" ]
   pull_request:
