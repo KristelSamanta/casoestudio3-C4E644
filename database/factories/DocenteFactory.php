@@ -18,7 +18,9 @@ class DocenteFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+           'cod_empleado' => fake()->unique()->numberBetween(1000, 999999),
+'nombre_empleado' => fake()->firstName(),
+'apellidos_empleado' => fake()->lastName(),
         ];
     }
 }
